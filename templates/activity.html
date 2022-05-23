@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>Here's a fun Eco Friendly activity you can do!</h1>
+        <h3>{{line['activity']}}</h3>
+        <p>{{line['content']}}</p>
+        <button onclick="window.location.href='{{ url_for( 'start' ) }}'">Back</a></button>
+    </body>
+</html>

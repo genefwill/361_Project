@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>Daily Log</h1>
+        {% for item in data %}
+        <table>
+          <thead>
+            <th>Food</th>
+            <th>Carbon Output</th>
+          </thead>
+          <tr>
+            <td>{{item['food_name']}}</td>
+            <td>{{item['carbon']}}</td>
+          </tr>
+        </table>
+      {% endfor %}
+        <button onclick="window.location.href='{{ url_for( 'start' ) }}'">back to search</a></button>
+    </body>
+</html>

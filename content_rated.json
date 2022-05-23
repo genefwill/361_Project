@@ -1,0 +1,44 @@
+[    
+    {   
+        "activity": "Yoga",
+        "content": "10 Yoga Poses You Need to Know: The building blocks of yoga are poses. These are good ones to learn as you build a regular yoga practice. These 10 poses are a complete yoga workout. Move slowly through each pose, remembering to breathe as you move. Pause after any pose you find challenging, especially if you are short of breath, and start again when your breathing returns to normal. The idea is to hold each pose for a few, slow breaths before moving on to the next one.         Child's Pose : This calming pose is a good default pause position. You can use childs pose to rest and refocus before continuing to your next pose. It gently stretches your lower back, hips, thighs, knees and ankles and relaxes your spine, shoulders and neck.",
+        "voted": 0,
+        "score": 1
+    },
+    {   
+        "activity": "Swimming",
+        "content": "Swimming is a fun and easy way to stay cool in the summer. Natural Swimming places such as lakes and the beach are best, just be sure to not disturb nature and wear reef-safe sunblock!",
+        "voted": 0,
+        "score": 2
+    },
+    {   
+        "activity": "Biking",
+        "content": "Biking is a great mode of transportation that does not emit any greenhouse gasses. It is also a great form of exercise. ",
+        "voted": 0,
+        "score": 3
+    },
+    {   
+        "activity": "Gardening",
+        "content": "Growing your own food is a great way to get nutrients withou worrying about the carbon emissions of your food, it is also a fun activity.",
+        "voted": 0,
+        "score": 4
+    },
+    {   
+        "activity": "Hiking",
+        "content": "Hiking is a great way to see nature and get some exercise. Make sure to clean up after yourself and not to disturb any nature while you are out.",
+        "voted": 0,
+        "score": 5
+    },
+    {   
+        "activity": "Visit a Farmer's Market",
+        "content": "Visiting your local farmer’s market both supports your community and promotes sustainability. Food in the United States travels an average of 1,500 miles to get to your plate. By purchasing locally-grown produce, you can rest assured that your food has a much smaller footprint than its supermarket counterparts. Take home all your fresh, organic goodies and prepare a delicious low-waste meal.",
+        "voted": 0,
+        "score": 6
+    },
+    {   
+        "activity": "Camping",
+        "content": "If you really want to get really up close and personal with Mother Nature, go on an eco-friendly camping trip. Spend a night under the moon toasting marshmallows by the fire, then fall asleep under the stars. You can even make your camping trip more green by opting for reusables, making your own food instead of buying it, and leaving no trace before you leave.",
+        "voted": 0,
+        "score": 7
+    }
+]

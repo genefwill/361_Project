@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>The Food you eat matters</h1>
+        <p>The food we eat is a huge contributor to carbon emissions.</p>
+        <p>The most effective thing a single person can do to lower carbon emissions is to stop or cut back eating animal products. </p>
+        <p>This application allows you to track the food you eat and the carbon output of those foods.</p>
+        <button onclick="window.location.href='{{ url_for( 'start' ) }}'">Let's Get Started!</a></button>
+        <button onclick="window.location.href='{{ url_for( 'more_info' ) }}'">More Information</button></a></button>
+    </body>
+</html>

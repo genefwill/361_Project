@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>Welcome to<br> Carbon Conscious!</h1>
+        <h2>A website to track the carbon output <br>of the food you eat</h2>
+        <br>
+        <button onclick="window.location.href='{{ url_for( 'info' ) }}'">Start</a></button>
+    </body>
+</html>

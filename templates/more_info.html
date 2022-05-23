@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>Would you like some Resources?</h1>
+        <h2>Here are some links to read more</h2>
+        <a href ="https://ourworldindata.org/environmental-impacts-of-food">https://ourworldindata.org/environmental-impacts-of-food</a>
+        <br>
+        <a href ="https://www.bbc.com/news/science-environment-46459714">BBC climate change calculator</a>
+        <br>
+        <button onclick="window.location.href='{{ url_for( 'info' ) }}'">Back to Info Page</a></button>
+    </body>
+</html>

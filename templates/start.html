@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>Search for food to input here!</h1>
+        <form method="post">
+          <label for="food_search">Food Search</label>
+          <input id ="food" name="food" value="food">
+          <button type="submit">Search</button>
+        </form>
+        <br>
+        <br>
+        <br>
+        {% for item in data %}
+          <table>
+            <thead>
+              <th>Food</th>
+              <th>Carbon Output</th>
+              <th>Add Food</th>
+            </thead>
+            <tr>
+              <td id = 'foodName'>{{item['food_name']}}</td>
+              <td id = 'foodCarbon'>{{item['carbon']}}</td>
+              <td><button onclick="window.location.href='{{ url_for( 'daily_log' ) }}'" class ="input">Input</a></button></td>
+            </tr>
+          </table>
+        {% endfor %}
+        <div>
+          <h3>Click here for fun Eco Friendly Activities!</h3>
+          <td><button onclick="window.location.href='{{ url_for( 'activity' ) }}'" class ="input">Go!</a></button></td>
+        </div>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>

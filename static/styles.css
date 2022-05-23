@@ -1,0 +1,29 @@
+body {
+    margin-top: 5cm;
+    background-image: linear-gradient(to right, rgb(134, 230, 134), rgb(174, 247, 207), rgb(134, 230, 134));
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(28, 80, 52);
+
+}
+p {
+    color: rgb(3, 66, 45);
+}
+button {
+    background-color: #20965b; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: #96ec99;
+    color: green;
+  }

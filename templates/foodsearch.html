@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Food Search Results
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Food</th>
+                <th>Carbon Output</th>
+            </tr>
+            {% for row in food %}   
+            <tr>
+                <td>{{row.1}}</td>
+                <td>{{row.2}}</td> 
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
